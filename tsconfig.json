@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "./src",
+    "module": "esnext",
+    "target": "es2017",
+    "lib": ["dom", "esnext", "WebWorker"],
+    "outDir": "./esm",
+    "baseUrl": ".",
+    "skipLibCheck": true, 
+    "typeRoots": ["./types"]
+  }
+}
